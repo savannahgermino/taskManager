@@ -1,0 +1,47 @@
+header{
+    position:sticky;
+    color: white;
+    background-color: rgb(144, 175, 171);
+    letter-spacing: 3px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    border-radius: 60px;
+    margin-bottom: 1rem;
+}
+h1{
+    text-align: center;
+}
+main{
+    display: flex;
+    background-color: rgb(216, 232, 241);
+}
+#sect-list{
+    flex: 1;
+}
+#sect-form{
+    flex: 0;
+    border-left:1px solid grey;
+    border-radius: 20px;
+    height:70vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid grey;
+}
+.control{
+    margin-bottom: 15px;
+}
+.control label{
+    display:flex;
+}
+.icon-important{
+    color:white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.fas{
+    color: rgb(33, 101, 104);
+}
+.far{
+    color:rgb(182, 170, 38);
+}

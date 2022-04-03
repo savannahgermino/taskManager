@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    />
+    <title>My Task Manager</title>
+
+    <link href="./styles/app.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+        <h1>My Task Manager</h1>
+    </header>
+
+    <main>
+      <section id="sect-list">
+    <button id="btnTogglePanel">Show/Hide Task Info</button>
+    
+    <div id="task-container">
+
+    </div>    
+    </section>  
+
+      <section id="sect-form">
+        <div class="form">
+
+            <div class="control">
+                <label>Important</label>
+                <i id="iImportant" class="far fa-star"></i></id>
+              </div>
+
+          <div class="control">
+            <label>Title</label>
+            <input id="txtTitle" type="title" />
+          </div>
+
+          <div class="control">
+            <label>Color</label>
+            <input id="selColor" type="color" />
+          </div>
+
+          <div class="control">
+            <label>Start Date</label>
+            <input id="selStartDate" type="datetime-local" />
+          </div>
+
+          <div class="control">
+            <label>Due Date</label>
+            <input id="selDueDate" type="datetime-local" />
+          </div>
+
+          <div class="control">
+            <label>Category</label>
+            <select>
+              <option value="1">Personal</option>
+              <option value="2">Professional</option>
+            </select>
+          </div>
+
+          <div class="control">
+            <label>Description
+            </label>
+            <textarea rows="3"></textarea>
+          </div>
+
+          <div class="control">
+            <button>Register Task</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/task.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
