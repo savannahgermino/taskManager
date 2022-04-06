@@ -36,6 +36,7 @@ function saveTask() {
   var category = $("#selCategory").val();
   var desc = $("#txtDescription").val();
 
+//   console.log(important, title, color, startDate, dueDate, category, desc);
   let task = new Task(important, title, color, startDate, dueDate, category, desc);
   console.log(task);
 
